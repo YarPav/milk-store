@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/headfoot.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>Обратная связь</title>
+</head>
+<body>
+<header>
+    <div class="main-header">
+        <div class="logo">
+            <a href="index.html">
+                <img title="На главную" src="images/bicycle.png" height="50" width="50">
+            </a>
+        </div>
+        <nav class="navigation">
+            <ul class="nav-icons">
+                <li class="nav-icons__child">
+                    <a class="nav-icons__icontext" href="index.html">main</a>
+                </li>
+                <li class="nav-icons__child">
+                    <a class="nav-icons__icontext" href="about.html">about</a>
+                </li>
+                <li class="nav-icons__child">
+                    <a class="nav-icons__icon-text" href="feedback.html">feedback</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="links">
+            <li class="links__li">
+                <a href="https://vk.com">
+                    <img title="Мы Вконтакте" alt="Вк" src="images/vkp.png" height="50" width="50" class="vkLogo">
+                </a>
+            </li>
+            <li class="links__li">
+                <a href="https://web.telegram.org">
+                    <img title="Мы в Телеграм" alt="Телеграм" src="images/tg.png" height="50" width="50" class="tgLogo">
+                </a>
+            </li>
+            <li class="links__li">
+                <a href="https://www.youtube.com/">
+                    <img title="Мы в Ютуб" alt="Ютуб" src="images/youtubep.png" height="50" width="50" class="ytLogo">
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+    <main>
+        <h2 class="feedback_heading">Связаться с нами</h2>
+        <form action="index.html" class="feedback__form">
+            <input type="email" placeholder="Введите почту" required>
+            <input type="text" placeholder="Введите ФИО">
+            <textarea cols="50" rows="15" placeholder="Что вы хотите нам сказать"></textarea>
+            <div class="feedback__form-buttons-group">
+                <input type="submit" value="Send" class="feedback__form-button">
+                <input type="reset" value="Очистить форму" class="feedback__form-button">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Bike <span>Store</span></p>
+    </footer>
+</body>
+</html>
